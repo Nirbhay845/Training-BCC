@@ -127,16 +127,20 @@
 # d=10
 # print((a+b)*c/d)
 # print((a+b)/c*d)
-name="Prashant"
+# name="Prashant"
 # for i in name:
 #     print(i)
-data=['a','e','i','o','u']
-vowels=0
-con=0
-for i in name:
-    if i in data:
-        vowels+=1
-    else:
-        con+=1
-print("Vowels=", vowels)
-print("Consonants=", con)
+# data=['a','e','i','o','u']
+# vowels=0
+# con=0
+# for i in name:
+#     if i in data:
+#         vowels+=1
+#     else:
+#         con+=1
+# print("Vowels=", vowels)
+# print("Consonants=", con)
+i=1
+while i<=5:
+    print(i)
+    i=i+1
