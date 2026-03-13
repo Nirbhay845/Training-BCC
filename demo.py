@@ -131,8 +131,8 @@
 # for i in name:
 #     print(i)
 # data=['a','e','i','o','u']
-# vowels=0
 # con=0
+# vowels=0
 # for i in name:
 #     if i in data:
 #         vowels+=1
@@ -140,7 +140,77 @@
 #         con+=1
 # print("Vowels=", vowels)
 # print("Consonants=", con)
-i=1
-while i<=5:
-    print(i)
-    i=i+1
+# i=1
+# while i<=5:
+# #     print(i)
+# #     i=i+1
+# username=''
+# password=''
+# while username !='admin' and password !='hello':
+#     username=input("Enter the username: ")
+#     password=input("Enter the password: ")
+#     if username=='admin' and password=='hello':
+#         print("Login successful")
+#     else:
+#         print("Invalid username or password")   
+# n=int(input("Enter the number: "))
+# sum=0
+# i=1
+# while i<=n:
+#     sum=sum+i
+#     i=i+1
+# print("The sum of first", n, "natural numbers is", sum) 
+# name="Nirbhay"
+# newname = " "
+# for i in name:
+#     if i not in newname:
+#         newname +=i
+# print(newname)
+# print(name)
+# name="Nirbhay"
+# reversed_name=""
+# for i in name:
+#     reversed_name=i+reversed_name
+# print(reversed_name)    
+
+# mycart=[10,20,30,200,300,800,60,700]
+# for i in mycart:
+#     if i>=100:
+#         print("This is my purchased cart item")
+#     else: print("Not in my purchased items")
+#     continue
+#     print(i)
+# text="EYE"    #PALINDROME
+# if text==text[::-1]:
+#     print("It is a palindrome")
+# else:
+#     print("It is not a palindrome")    
+
+# str1="Listen"
+# str2="Silent"
+# if sorted(str1.lower()) == sorted(str2.lower()):
+#     print("It is an anagram")
+# else:
+#     print("It is not an anagram")       
+# my_dict = {"name": "Alice"}
+# my_dict["age"] = 25
+# print(my_dict) 
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print("i", end=" ")
+#     print()
+# n=int(input("Enter the number: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         print(chr(64+i),end=" ")
+#     print()
+# n=int(input("Enter the number: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         print(n+1-i,end=" ")
+#     print()
+n=int(input("Enter the number: "))
+for i in range(1,n+1):
+    for j in range(1,n+2-i):
+        print("*",end=" ")
+    print()
