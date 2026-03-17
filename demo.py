@@ -282,3 +282,27 @@
 #     for j in range(1,n+2-i):
 #         print("*",end=" ")
 #     print()
+
+# def msg():
+#     print("Hello World")
+# msg()   
+# def operate():
+#     n1=int(input("Enter the number 1: "))
+#     n2=int(input("Enter the number 2: "))
+#     sum= n1+n2
+#     sub= n1-n2
+#     mul= n1*n2
+#     div= n1/n2
+#     return sum,sub,mul,div
+# print(operate())
+# def personalInfo(fname,lname):
+#     print("First Name:", fname)
+#     print("Last Name:", lname) 
+# print(personalInfo("Prashant", "Jha"))
+myList=[5,7,8,9,4,5]
+def searchElement(target):
+    for i in range(len(myList)):
+        if myList[i]==target:
+            return i
+    return -1
+print(searchElement(8))
